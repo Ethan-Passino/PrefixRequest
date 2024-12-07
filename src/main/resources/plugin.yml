@@ -1,0 +1,31 @@
+main: com.eleriummc.PrefixRequest.Main
+name: PrefixRequest
+version: 1.0.0
+description: This is the prefix request plugin.
+author: TurtlesAreHot
+api-version: 1.13
+commands:
+  prefix:
+    description: Lets you set your prefix.
+  prefixtest:
+    description: Test you prefix out.
+  prefixreq:
+    description: Send in a request. If another is sent it gets replaced.
+  prefixrequests:
+    description: GUI to go through prefix requests and accept or deny them.
+permissions:
+  prefixrequest.prefix:
+    description: Gives you access to /prefix
+    default: op
+  prefixrequest.prefixtest:
+    description: Gives you access to /prefixtest
+    default: op
+  prefixrequest.prefixreq:
+    description: Gives you access to /prefixreq
+    default: op
+  prefixrequest.prefixrequests:
+    description: Gives you access to /prefixrequests
+    default: op
+  phanaticmc.globalprefix:
+    description: Gives you access to /prefixreq
+    default: op
